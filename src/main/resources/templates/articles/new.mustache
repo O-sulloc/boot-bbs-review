@@ -1,0 +1,17 @@
+{{>layouts/header}}
+
+<form action="/articles" method="post" class="container text-start">
+    <div class="container">
+        <div class="md-3">
+            <label class="form-label">Title</label>
+            <input name="title" type="text" class="form-control">
+        </div>
+        <div class="md-3">
+            <label for="contents" class="form-label">Contents</label>
+            <input name="contents" type="text" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+    </div>
+</form>
+
+{{>layouts/footer}}
